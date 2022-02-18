@@ -1,0 +1,49 @@
+/* ---- portfolio-web-page style ---- */
+
+/* Set all HTML elements with border-box sizing */
+{ 
+  border-sizing: border-box;
+}
+
+
+
+
+h1, nav, footer {
+  text-align: center;
+  font-family: URW Form Extra Light, serif;
+}
+
+h1 {
+  letter-spacing: 12px;
+  font-size: 50px;
+  margin: 80px 80px;
+}
+
+
+.btn {
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+a:link{ color: grey; }
+a:visited { color: lightgrey; }
+a:hover { color: darkgrey; }
+a:active { color: black; }
+
+.header {
+  margin: 50px;
+}
+
+hr {
+  margin: 35px 20px;
+  background-color: #DBDBDB;
+  height: 4px;
+  border: none;
+  border-radius: 10px;
+}
+
+.intro, .about, .contact {
+  margin: 45px;
+}
