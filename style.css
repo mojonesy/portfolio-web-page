@@ -1,10 +1,10 @@
 /* ---- portfolio-web-page style ---- */
 
 /* Set all HTML elements with border-box sizing */
-{ 
+body { 
+  background-color: #DBDBDB;
   border-sizing: border-box;
 }
-
 
 
 h1, nav, footer {
@@ -14,22 +14,56 @@ h1, nav, footer {
 
 h1 {
   letter-spacing: 12px;
-  font-size: 50px;
-  margin: 80px 80px 60px 80px;
+  font-size: 55px;
+  margin: 80px 80px 4px 80px;
+  color: #2B303A;
 }
 
-.headshot {
+h4 {
+  font-family: URW Form Extra Light, serif;
+  color: #2B303A;
   text-align: center;
+  padding-bottom: 20px;
+}
+
+.header {
+  padding-bottom: 30px;
   margin: 50px;
+}
+
+.header hr {
+  margin: 30px 20px 0px 20px;
+  background-color: #2B303A;
+  height: 4px;
+  border: none;
+  border-radius: 10px;
+}
+
+.intro {
+  margin-top: 55px;
+}
+
+.intro img {
+  float: right;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.about img {
+  float: right;
+  margin: 40px 10px 40px 40px;
+  border-radius: 10px;
 }
 
 h2, h3 {
   font-family: URW Form Extra Light, serif;
+  color: #5E4C5A;
 }
 
 p, ul, ol, a {
   font-family: URW Form Thin, sans-serif;
   letter-spacing: 0.5px;
+  text-align: justify;
 }
 
 .btn {
@@ -40,17 +74,22 @@ p, ul, ol, a {
 }
 
 a:link{ color: grey; }
-a:visited { color: lightgrey; }
+a:visited { color: white; }
 a:hover { color: darkgrey; }
 a:active { color: black; }
 
-.header {
-  margin: 50px;
-}
 
 hr {
   margin: 35px 20px;
-  background-color: #DBDBDB;
+  background-color: #048BA8;
+  height: 4px;
+  border: none;
+  border-radius: 10px;
+}
+
+.last-hr {
+  margin: 35px 20px;
+  background-color: #2B303A;
   height: 4px;
   border: none;
   border-radius: 10px;
@@ -62,5 +101,6 @@ hr {
 
 footer p {
   font-size: 12px;
+  text-align: center;
   margin: 50px;
 }
