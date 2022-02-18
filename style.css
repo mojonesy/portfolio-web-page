@@ -3,7 +3,7 @@
 /* Set all HTML elements with border-box sizing */
 body { 
   background-color: #DBDBDB;
-  border-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
@@ -12,6 +12,7 @@ h1, nav, footer {
   font-family: URW Form Extra Light, serif;
 }
 
+/* Header - Molly Jones */
 h1 {
   letter-spacing: 12px;
   font-size: 55px;
@@ -19,6 +20,7 @@ h1 {
   color: #2B303A;
 }
 
+/* Sub-header */
 h4 {
   font-family: URW Form Extra Light, serif;
   color: #2B303A;
@@ -43,12 +45,14 @@ h4 {
   margin-top: 55px;
 }
 
+/* Headshot, float to right of intro text*/
 .intro img {
   float: right;
   margin: 40px;
   border-radius: 10px;
 }
 
+/* Espresso, float to right of about text */
 .about img {
   float: right;
   margin: 40px 10px 40px 40px;
@@ -66,6 +70,7 @@ p, ul, ol, a {
   text-align: justify;
 }
 
+/* nav buttons */
 .btn {
   font-size: 15px;
   letter-spacing: 2px;
