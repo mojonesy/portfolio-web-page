@@ -1,6 +1,6 @@
 /* ---- portfolio-web-page style ---- */
 
-/* Set all HTML elements with border-box sizing */
+/* Set all HTML elements with border-box sizing and background color*/
 body { 
   background-color: #DBDBDB;
   box-sizing: border-box;
@@ -80,8 +80,8 @@ p, ul, ol, a {
   text-decoration: none;
 }
 
-a:link{ color: grey; }
-a:visited { color: white; }
+a:link { color: grey; }
+a:visited { color: #5E4C5B; }
 a:hover { color: darkgrey; }
 a:active { color: black; }
 
