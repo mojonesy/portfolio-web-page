@@ -33,7 +33,7 @@ h4 {
   margin: 50px;
 }
 
-.header hr {
+.top-hr {
   margin: 30px 20px 0px 20px;
   background-color: #2B303A;
   height: 4px;
@@ -41,15 +41,10 @@ h4 {
   border-radius: 10px;
 }
 
-.intro {
-  margin-top: 55px;
-}
-
 /* Headshot, float to right of intro text*/
 .intro img {
   float: right;
   margin: 40px;
-  margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -69,7 +64,7 @@ h2, h3 {
 p, ul, ol, a {
   font-family: URW Form Thin, sans-serif;
   letter-spacing: 0.5px;
-  text-align: justify;
+  text-align: left;
 }
 
 /* nav buttons */
@@ -80,7 +75,7 @@ p, ul, ol, a {
   text-decoration: none;
 }
 
-a:link { color: grey; }
+a:link { color: #222222; }
 a:visited { color: #5E4C5B; }
 a:hover { color: darkgrey; }
 a:active { color: black; }
@@ -103,7 +98,8 @@ hr {
 }
 
 .intro, .about, .contact {
-  margin: 55px 85px;
+  margin: 40px 85px;
+  padding: 20px;
 }
 
 footer p {
